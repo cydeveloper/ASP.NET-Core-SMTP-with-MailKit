@@ -1,0 +1,38 @@
+﻿@model AspNetCore_SMTP_MalKit.Models.Contact
+
+@{
+    ViewData["Title"] = "Contact Page";
+}
+
+<h2>@ViewData["Title"].</h2>
+
+<div asp-validation-summary="ModelOnly" class="container">
+
+    @if (ViewData["Message"] != null)
+    {
+        <strong style="color:@ViewData["message_color"]"> @ViewData["Message"] </strong>
+    }
+
+    <form asp-action="Contact" method="post">
+        <div class="form-group">
+            <label asp-for="Email">Recipient Email Address: </label>
+            <input asp-for="Email" class="form-control" /><br />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Subject">Subject: </label>
+            <input asp-for="Subject" class="form-control" /><br />
+            <span asp-validation-for="Subject" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Message">Message: </label>
+            <input asp-for="Message" class="form-control" /> 
+            <br />
+            <span asp-validation-for="Message" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+</div>
