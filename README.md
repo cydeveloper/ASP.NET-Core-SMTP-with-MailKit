@@ -4,7 +4,7 @@
 
 Create a new ASP.NET Core Project. 
 
-For Authenitication, you can choose <b>Individual account</b> where all the configuration and classes is already setup for you. 
+For Authenitication, you can choose <b>Individual account</b> where the configuration and classes is already setup for you. 
 
 For this demo, I chose <b>No Authentication</b>. 
 
@@ -46,6 +46,8 @@ Create <i>Contact.cs</i> inside the Models folder.
         public string Message { get; set; }
     }
 ```
+
+<br/>
 
 Create <i>IEmailSender.cs</i> and <i>MessageServices.cs</i> inside the Services folder if you chose <b>No Authentication</b>
 
@@ -95,6 +97,8 @@ Enter your email address and password. Also setup your SMTP Provider (e.g. gmail
         }
     }
 ```
+<br/>
+
 Also, make sure that you add the Email Services to the ConfigureServices() method in <i>Startup.cs</i> 
 
 <i>IEmailSender.cs</i>
@@ -212,10 +216,10 @@ Testing - Press CTRL + F5 to lanuch your application
 
 Navigate to the Contact page.
 
-Enter in the recipient's emaill addresss, a subject and a message. 
+Enter in the recipient's emaill address, a subject and a message. 
 
 Once you hit Send Message, check the recipient's email inbox to confirm that your message has been sent. 
 
 <h3>REFERENCES</h3>
-https://github.com/jstedfast/MailKit
+https://github.com/jstedfast/MailKit <br/>
 https://components.xamarin.com/gettingstarted/mailkit
