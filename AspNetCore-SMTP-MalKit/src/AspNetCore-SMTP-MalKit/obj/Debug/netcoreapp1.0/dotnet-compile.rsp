@@ -1,5 +1,5 @@
---temp-output:C:\Users\Administrator\Documents\ForGit\AspNetCore-SMTP-MalKit\src\AspNetCore-SMTP-MalKit\obj\Debug\netcoreapp1.0\
---out:C:\Users\Administrator\Documents\ForGit\AspNetCore-SMTP-MalKit\src\AspNetCore-SMTP-MalKit\bin\Debug\netcoreapp1.0\AspNetCore-SMTP-MalKit.dll
+--temp-output:C:\Users\Administrator\Documents\GitHub\ASP.NET-Core-SMTP-with-MailKit\AspNetCore-SMTP-MalKit\src\AspNetCore-SMTP-MalKit\obj\Debug\netcoreapp1.0\
+--out:C:\Users\Administrator\Documents\GitHub\ASP.NET-Core-SMTP-with-MailKit\AspNetCore-SMTP-MalKit\src\AspNetCore-SMTP-MalKit\bin\Debug\netcoreapp1.0\AspNetCore-SMTP-MalKit.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -196,10 +196,10 @@
 --reference:C:\Users\Administrator\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\Administrator\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\Administrator\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"C:\Users\Administrator\Documents\ForGit\AspNetCore-SMTP-MalKit\src\AspNetCore-SMTP-MalKit\obj\Debug\netcoreapp1.0\AspNetCore-SMTP-MalKitdotnet-compile.deps.json",AspNetCore-SMTP-MalKit.deps.json
-C:\Users\Administrator\Documents\ForGit\AspNetCore-SMTP-MalKit\src\AspNetCore-SMTP-MalKit\Program.cs
-C:\Users\Administrator\Documents\ForGit\AspNetCore-SMTP-MalKit\src\AspNetCore-SMTP-MalKit\Startup.cs
-C:\Users\Administrator\Documents\ForGit\AspNetCore-SMTP-MalKit\src\AspNetCore-SMTP-MalKit\Controllers\HomeController.cs
-C:\Users\Administrator\Documents\ForGit\AspNetCore-SMTP-MalKit\src\AspNetCore-SMTP-MalKit\Models\Contact.cs
-C:\Users\Administrator\Documents\ForGit\AspNetCore-SMTP-MalKit\src\AspNetCore-SMTP-MalKit\Services\IEmailSender.cs
-C:\Users\Administrator\Documents\ForGit\AspNetCore-SMTP-MalKit\src\AspNetCore-SMTP-MalKit\Services\MessageServices.cs
+--resource:"C:\Users\Administrator\Documents\GitHub\ASP.NET-Core-SMTP-with-MailKit\AspNetCore-SMTP-MalKit\src\AspNetCore-SMTP-MalKit\obj\Debug\netcoreapp1.0\AspNetCore-SMTP-MalKitdotnet-compile.deps.json",AspNetCore-SMTP-MalKit.deps.json
+C:\Users\Administrator\Documents\GitHub\ASP.NET-Core-SMTP-with-MailKit\AspNetCore-SMTP-MalKit\src\AspNetCore-SMTP-MalKit\Program.cs
+C:\Users\Administrator\Documents\GitHub\ASP.NET-Core-SMTP-with-MailKit\AspNetCore-SMTP-MalKit\src\AspNetCore-SMTP-MalKit\Startup.cs
+C:\Users\Administrator\Documents\GitHub\ASP.NET-Core-SMTP-with-MailKit\AspNetCore-SMTP-MalKit\src\AspNetCore-SMTP-MalKit\Controllers\HomeController.cs
+C:\Users\Administrator\Documents\GitHub\ASP.NET-Core-SMTP-with-MailKit\AspNetCore-SMTP-MalKit\src\AspNetCore-SMTP-MalKit\Models\Contact.cs
+C:\Users\Administrator\Documents\GitHub\ASP.NET-Core-SMTP-with-MailKit\AspNetCore-SMTP-MalKit\src\AspNetCore-SMTP-MalKit\Services\IEmailSender.cs
+C:\Users\Administrator\Documents\GitHub\ASP.NET-Core-SMTP-with-MailKit\AspNetCore-SMTP-MalKit\src\AspNetCore-SMTP-MalKit\Services\MessageServices.cs

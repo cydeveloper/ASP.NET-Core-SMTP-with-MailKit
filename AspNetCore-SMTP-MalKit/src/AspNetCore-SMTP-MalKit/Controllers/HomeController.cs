@@ -30,6 +30,13 @@ namespace AspNetCore_SMTP_MalKit.Controllers
             return View();
         }
 
+        public IActionResult Contact()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Contact(Contact contact)
         {
             // This is for the Contact Form view, you can test the form 
