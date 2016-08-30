@@ -216,6 +216,8 @@ Testing - Press CTRL + F5 to lanuch your application
 
 Navigate to the Contact page.
 
+![contactform](https://cloud.githubusercontent.com/assets/11988924/18098284/96afaa54-6eaf-11e6-8c47-1cf021db0db9.png)
+
 Enter in the recipient's emaill address, a subject and a message. 
 
 Once you hit Send Message, check the recipient's email inbox to confirm that your message has been sent. 
