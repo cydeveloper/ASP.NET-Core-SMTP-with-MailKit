@@ -1,4 +1,4 @@
-# ASP.NET Core 1.0 - SMTP using MailKit 
+# Send Emails ASP.NET Core 1.0 - SMTP using MailKit 
 
 <h3>Step 1)</h3>
 
